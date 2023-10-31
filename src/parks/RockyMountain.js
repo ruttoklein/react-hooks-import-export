@@ -1,13 +1,11 @@
 import React from "react";
+const Trees = "Aspen and Pine";
 
-const trees = "Aspen and Pine";
-
-function wildlife() {
-  console.log("Elk, Bighorn Sheep, Moose");
+function Wildlife() {
+  return <p>"Elk, Bighorn Sheep, Moose"</p>
 }
-
-function elevation() {
+function Elevation() {
   console.log("9583 ft");
 }
 
-export default{ elevation, wildlife };
+export default { Trees, Wildlife };

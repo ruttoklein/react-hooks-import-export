@@ -1,7 +1,9 @@
 import React from "react";
-
-function howManyParks() {
-  console.log("42 parks!");
+function HowManyParks() {
+  
+  return (
+    <div>"42 parks!"</div>
+  )
 }
 
-export default howManyParks;
+export default HowManyParks
